@@ -1,0 +1,99 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #966a6a; /* Light gray background */
+}
+
+.game-container {
+    position: relative;
+    border: 5px solid #3498db; /* Border color */
+    background-color: #ecf0f1; /* Container background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+canvas {
+    display: block;
+    /* margin: 0 auto; */
+    border: 2px solid #2c3e50; Border color for the canvas
+    border-radius: 5px; Rounded corners for the canvas
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30;
+    background-color: #e74c3c; /* Red color for the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-image: url('ground.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('image/sk.jpg'); /* Replace with the path to your image */
+}
+
+.game-container {
+    position: relative;
+    border: 5px solid #3498db;
+    background-color: rgba(236, 240, 241, 0.7); /* Container background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('image/sk.jpg'); Replace with the path to your image
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #2c3e50;
+    border-radius: 10%;
+    background-image: url('image/ground.jpg'); /* Replace with the path to your image */
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
